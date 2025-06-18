@@ -39,7 +39,7 @@ public class Combo_Script : MonoBehaviour
         }
     }
 
-    public void ResetC_R()        //　コンボとランクのリセット処理(※D_nutに入れるべきリセットの発動条件がまだ終わってない…)
+    public void ResetC_R()        //　コンボとランクのリセット処理(ResetZoneスクリプトにて接触により呼ばれる。Dナッツしか当たる対象がいない＝Dナッツが当たると発動)
     {
         combo = 0;
         combo_last = 0;
